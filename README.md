@@ -1,7 +1,7 @@
 # Cainiao / AliExpress / Alibaba Tracking Parser  
 **Python & JavaScript**
 
-This project fetches shipment tracking data from Cainiao (used by AliExpress, Alibaba, Temu, etc.) and converts the undocumented, inconsistent API response into a clean, normalized structure suitable for:
+This project fetches shipment tracking data from Cainiao (used by AliExpress, Alibaba, Temu, etc.) and converts the undocumented, inconsistent API response into a clean, normalised structure suitable for:
 
 - APIs
 - Databases
@@ -22,7 +22,7 @@ Both produce the same structured output.
 Cainiao returns deeply nested, poorly structured JSON.
 
 This project:
-- Normalizes timestamps
+- Normalises timestamps
 - Sorts events oldest → newest
 - Extracts meaningful shipment metadata
 - Calculates progress percentage
